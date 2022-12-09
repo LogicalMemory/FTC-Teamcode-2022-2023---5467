@@ -4,7 +4,7 @@ import org.firstinspires.ftc.robotcore.external.navigation.AngleUnit;
 import org.firstinspires.ftc.robotcore.external.navigation.AxesOrder;
 import org.firstinspires.ftc.robotcore.external.navigation.AxesReference;
 import org.firstinspires.ftc.robotcore.external.navigation.Orientation;
-//import org.firstinspires.ftc.teamcode.experimental.CompVision;
+import org.firstinspires.ftc.teamcode.CompVision;
 
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.hardware.CRServo;
@@ -16,7 +16,7 @@ import com.qualcomm.robotcore.util.ElapsedTime;
 public abstract class AutoBase extends LinearOpMode {
     ElapsedTime time = new ElapsedTime();
 
-   // CompVision cam;
+    public CompVision cam;
 
     DcMotor topLeft;
     DcMotor topRight;
